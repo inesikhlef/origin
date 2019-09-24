@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Home</title>
+    <style>
+    	header {
+          width: 100%;
+        }
+    	#nav_bar li {
+  			display: inline-block;
+  			padding: 8px;
+		}
+    	#nav_bar {
+  			float: right;
+		}
+
+		a {
+  			color: inherit;
+		}
+        ul {
+  			list-style: none;
+		}
+         
+        .google #google_logo {
+  			text-align: center;
+  			display: block;
+  			padding-top: 112px;
+  			padding-bottom: 20px;
+		}
+
+		.form {
+  			text-align: center;
+		} 
+        
+        #form-search { 
+          width: 500px;
+          line-height: 40px;
+          padding: 20px 10px;
+        }
+
+        .form #form-search {
+          padding: 0 8px;
+          border-style: ridge;
+          border-radius: 20px;
+        }
+        .buttons {
+            text-align: center;
+            padding-top: 30px;
+            margin-bottom: 300px;
+        }
+        footer {
+   			width:100%;
+   			height:60px;
+ 		}
+        footer ul li {
+  			display: inline;
+  			font-size: 14px;
+  			padding: 13px;
+		}
+
+        .footer-right {
+  			float: right;
+            text-align: center;
+		}
+        .footer-left {
+  			float: left;
+            text-align: center;
+		}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul id="nav_bar">
+          <li><a href="www.gmail.com">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li id="sign_in"><a href="#">Sign In</a></li>
+        </ul>  
+      </nav>  
+    </header>  
+    
+    
+    <div class="google">
+      <a href="#" id="google_logo"><img src="google_icon.png" alt=""/></a>
+    </div>
+    
+    <div class="form">  
+      <form>
+        <label for="form-search"></label>
+        <input type="text" id="form-search" placeholder="Search Google or type URL">
+      </form>
+    </div>  
+    
+    <div class= "buttons">  
+      <input type="submit" value="Google Search" id="google_search">
+      <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+    </div>
+      
+    <footer>
+        <ul class="footer-left">
+          <li><a href="#">About</a></li> 
+        </ul>
+        <ul class="footer-right">    
+          <li><a href="#">Settings</a></li>
+        </ul>       
+    </footer>      
+  </body>
